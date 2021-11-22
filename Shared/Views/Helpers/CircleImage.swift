@@ -22,7 +22,7 @@ struct CircleImage: View {
 
 struct CircleImage_Previews: PreviewProvider {
   static var previews: some View {
-    CircleImage(image: landmarks[0].image)
+    CircleImage(image: Image("turtlerock"))
       .previewLayout(.sizeThatFits)
       .padding()
   }
